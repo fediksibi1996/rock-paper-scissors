@@ -40,7 +40,7 @@ function getComputerChoice() {
     document.getElementById("computer-score").textContent = computerScore;
   }
   
-  function setupGame() {
+  function playGame() {
     const buttons = document.querySelectorAll('.choice-btn');
   
     buttons.forEach(button => {
@@ -53,4 +53,4 @@ function getComputerChoice() {
     });
   }
   
-  setupGame();
+  playGame();
